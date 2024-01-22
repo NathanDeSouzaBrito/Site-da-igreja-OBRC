@@ -20,7 +20,7 @@ body {
   width: 100vw;
   height: 789px;
   display: grid;
-  background-image: url("img/fotoHeader.svg");
+  background-image: url("fotoHeader.svg");
   background-size: cover;
   /* display: flex; */
   /* text-align: center; */
