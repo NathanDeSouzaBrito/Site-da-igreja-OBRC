@@ -32,3 +32,12 @@ function carouselM() {
   x[slideIndex - 1].style.display = "block";
   setTimeout(carouselM, 5000);
 }
+
+window.addEventListener("scroll", function () {
+  var navColor = document.getElementById("navColor");
+  if (window.pageYOffset > 0) {
+    navColor.classList.add("changeStyle");
+  } else {
+    navColor.classList.remove("changeStyle");
+  }
+});

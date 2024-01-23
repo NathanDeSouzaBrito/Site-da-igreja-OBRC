@@ -16,11 +16,13 @@
     <!-- JAVASCRIPT -->
     <script src="./carousel.js" async></script>
 
+    <script src="./scroll.js"></script>
+
     <title>Igreja OBPC</title>
   </head>
   <body>
     <!-- header (Parte superior) -->
-    <header class="header">
+    <header id="up" class="header">
       <!-- CARROSSEL -->
       <div class="carousel">
         <img class="mySlides" src="./fotoHeader.svg" alt="" />
@@ -30,9 +32,9 @@
 
       <!-- MENU -->
       <div class="menu_wrapper">
-        <div class="menu_bar">
+        <div id="navColor" class="menu_bar navColor">
           <!---------------- LOGO ----------------------->
-          <a href="#" title="Home" aria-label="home" class="logo">
+          <a href="#up" title="Home" aria-label="home" class="logo">
             <img src="./Logo.svg" alt="Logo Da igreja O Brasil Para Cristo" />
           </a>
 
