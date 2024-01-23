@@ -12,5 +12,23 @@ function carousel() {
     slideIndex = 1;
   }
   x[slideIndex - 1].style.display = "block";
-  setTimeout(carousel, 5000); // Muda a imagem a cada 5 segundos
+  setTimeout(carousel, 5000);
+}
+
+// =========CAROUSEL FROM MAIN =======
+var slideIndex = 0;
+carouselM();
+
+function carouselM() {
+  var i;
+  var x = document.getElementsByClassName("mySlidesM");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {
+    slideIndex = 1;
+  }
+  x[slideIndex - 1].style.display = "block";
+  setTimeout(carouselM, 5000);
 }

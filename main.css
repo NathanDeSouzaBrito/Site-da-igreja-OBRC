@@ -1,0 +1,41 @@
+.bodyOBPC {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  display: flex;
+  justify-content: space-around;
+
+  background: #044135;
+}
+
+.TextOBPC {
+  color: #fffffc;
+  -webkit-text-stroke-width: 2;
+  -webkit-text-stroke-color: #000;
+  font-family: Roboto;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 50px 0px 50px 15px;
+}
+
+.carouselMain {
+  position: relative;
+  height: 500px;
+}
+
+.mySlidesM {
+  animation: slideM 1s ease-in-out forwards;
+  display: flex;
+}
+
+@keyframes slideM {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

@@ -3,8 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS OF HEADER -->
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js" async></script>
+
+    <!-- CSS OF SECTION -->
+    <link rel="stylesheet" href="section.css" />
+
+    <!-- CSS MAIN -->
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- JAVASCRIPT -->
+    <script src="./carousel.js" async></script>
+
     <title>Igreja OBPC</title>
   </head>
   <body>
@@ -16,6 +27,8 @@
         <img class="mySlides" src="./fotoHeader2.svg" alt="" />
         <img class="mySlides" src="./fotoHeader3.svg" alt="" />
       </div>
+
+      <!-- MENU -->
       <div class="menu_wrapper">
         <div class="menu_bar">
           <!---------------- LOGO ----------------------->
@@ -37,6 +50,7 @@
                     <ul class="list-items-with-description">
                       <li>
                         <div class="item-title">
+                          <a class="P" href="#OBPC"><h3>OBPC</h3></a>
                           <a class="P" href="#equipe"><h3>Equipes</h3></a>
                           <a class="P" href="#projeto"><h3>Projetos</h3></a>
                           <a class="P" href="#igreja"><h3>Igrejas</h3></a>
@@ -90,6 +104,52 @@
         <!-- Login Coming Soon (login em breve) -->
       </div>
     </header>
-    <script src="./carousel.js"></script>
+
+    <!-- TEXT MAIN -->
+    <section class="bodyTextM">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="6"
+        height="240"
+        viewBox="0 0 6 280"
+        fill="none"
+      >
+        <path
+          d="M3.375 279.021L3.375 -0.00670636"
+          stroke="#FFFFFC"
+          stroke-width="5"
+        />
+      </svg>
+      <h2 class="TextM">
+        Nossa igreja incorpora a família de Deus em nossa comunhão. <br />
+        Proporcionamos uma comunidade calorosa,
+        <br />
+        autêntica e fiél ao Pai.
+      </h2>
+    </section>
+
+    <!-- ABOUT THE OBPC CHURCH  -->
+    <main id="OBPC" class="bodyOBPC">
+      <div>
+        <img class="mySlidesM" src="./fotoMain.svg" alt="" />
+        <img class="mySlidesM" src="./fotoMain2.svg" alt="" />
+        <img class="mySlidesM" src="./fotoMain3.svg" alt="" />
+      </div>
+      <aside>
+        <h2 class="TextOBPC">
+          Na Igreja O Brasil para Cristo, queremos que <br />
+          o amor que Cristo mostrou na cruz flua de nossas vidas,<br />
+          impactando a comunidade. <br />
+          <br />
+          Nós viemos de todas as origens e culturas diferentes,<br />
+          mas estamos unidos na busca e adoração de Cristo,<br />
+          em espiro e em verdade. Acima de tudo, queremos glorificar <br />
+          a Deus. Acreditamos fortemente que Deus faz Sua obra <br />
+          através da igreja local e que é uma parte vital da vida cristã. <br />
+          Junte-se a nós enquanto nos unimos e deixamos que o Evangelho nos
+          transforme!
+        </h2>
+      </aside>
+    </main>
   </body>
 </html>

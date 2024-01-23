@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap");
+
+.bodyTextM {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TextM {
+  color: #edbb6c;
+  font-family: roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 5%;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  /* -webkit-text-stroke-color: #000; */
+}
