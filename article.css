@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&display=swap");
+
+.ministerios {
+  background: #edbb6c;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  height: 500px;
+}
+
+.ministerios > div > h1 {
+  color: #004f40;
+  display: flex;
+  font-family: "League Spartan";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.TextA {
+  cursor: auto;
+}
+
+.ministerios > div > ul > li {
+  color: #044135;
+  font-family: "League Spartan";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+.ministeriosUp {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-bottom: 7%;
+}
+.ministeriosDown {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-bottom: 5%;
+}
+
+article li:hover {
+  transform: translateY(-7px);
+  transition-duration: 0.5s;
+  text-shadow: 3px 0px 5px #fffcff, -3px 0px 5px #fffcff, 0 3px 5px #fffcff,
+    0 -3px 5px #fffcff, 0px 7px 5px black;
+}
+
+.TextA:hover {
+  transform: translateY(-7px);
+  transition-duration: 0.5s;
+  text-shadow: 3px 0px 5px #fffcff, -3px 0px 5px #fffcff, 0 3px 5px #fffcff,
+    0 -3px 5px #fffcff, 0px 7px 5px black;
+}
