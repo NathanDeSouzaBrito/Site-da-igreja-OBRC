@@ -33,6 +33,7 @@ function carouselM() {
   setTimeout(carouselM, 5000);
 }
 
+//  SCROLL OF NAVBAR
 window.addEventListener("scroll", function () {
   var navColor = document.getElementById("navColor");
   if (window.pageYOffset > 0) {

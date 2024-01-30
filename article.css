@@ -7,22 +7,22 @@
   height: 500px;
 }
 
+#TextA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
 .ministerios > div > h1 {
   color: #004f40;
-  display: flex;
   font-family: "League Spartan";
   font-size: 50px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
   cursor: pointer;
-}
-
-.TextA {
-  cursor: auto;
 }
 
 .ministerios > div > ul > li {
@@ -53,12 +53,12 @@ article li:hover {
   transform: translateY(-7px);
   transition-duration: 0.5s;
   text-shadow: 3px 0px 5px #fffcff, -3px 0px 5px #fffcff, 0 3px 5px #fffcff,
-    0 -3px 5px #fffcff, 0px 7px 5px black;
+    0 -3px 5px #fffcff, 0px 7px 5px rgba(0, 0, 0, 0.704);
 }
 
 .TextA:hover {
-  transform: translateY(-7px);
+  /* transform: translateY(-7px); */
   transition-duration: 0.5s;
   text-shadow: 3px 0px 5px #fffcff, -3px 0px 5px #fffcff, 0 3px 5px #fffcff,
-    0 -3px 5px #fffcff, 0px 7px 5px black;
+    0 -3px 5px #fffcff, 0px 7px 5px rgba(0, 0, 0, 0.704);
 }

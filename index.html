@@ -48,7 +48,7 @@
       <div class="menu_wrapper">
         <div id="navColor" class="menu_bar navColor">
           <!---------------- LOGO ----------------------->
-          <a href="#up" title="Home" aria-label="home" class="logo">
+          <a href="#up" title="OBPC" aria-label="home" class="logo">
             <img
               src="./Imgs/Logo.svg"
               alt="Logo Da igreja O Brasil Para Cristo"
@@ -61,7 +61,7 @@
               <!--  NAVBAR "SOBRE" -->
               <li>
                 <button type="button">
-                  <p class="P">Sobre</p>
+                  <p title="Sobre" class="P">Sobre</p>
                   <img src="./Imgs/Arrow.svg" alt="arrow from down" />
                 </button>
                 <div class="dropdown_wrapper">
@@ -93,7 +93,7 @@
               <!-- NAVBAR "PEDIDOS" -->
               <li>
                 <button type="button">
-                  <p class="P">Pedidos</p>
+                  <p title="Pedidos" class="P">Pedidos</p>
                   <img src="./Imgs/Arrow.svg" alt="arrow from down" />
                 </button>
                 <div class="dropdown_wrapper">
@@ -190,7 +190,7 @@
 
     <!-- ABOUT OBPC MINISTRIES -->
     <article id="ministerio" class="ministerios">
-      <div>
+      <div id="TextA">
         <h1 class="TextA">NOSSOS MINISTERIOS</h1>
       </div>
       <div class="TextB">
@@ -207,5 +207,48 @@
         </ul>
       </div>
     </article>
+
+    <!-- REQUESTS -->
+    <section id="pedidos" class="pedidos">
+      <div class="h1Request">
+        <h1>PEDIDOS</h1>
+      </div>
+      <form action="https://api.sheetmonkey.io/form/xtS3NKrCfKguA9KnXuF2H2">
+        <select class="form">
+          <option class="textForm" value="Escolha">
+            Escolha seu pedido...
+          </option>
+          <option class="textForm" value="Doação">Oração</option>
+          <option class="textForm" value="Doação">Doação</option>
+        </select>
+        <div class="inp">
+          <input
+            class="form textForm"
+            type="text"
+            name="Nome da Pessoa"
+            placeholder="Seu Nome"
+          />
+          <input
+            class="form textForm"
+            type="number"
+            name="Numero da Pessoa"
+            id="tel"
+            placeholder="Seu Numero de telefone"
+            pattern="[0-9]{2}-[09]{5}-[0-9]{4}"
+          />
+
+          <input
+            id="razão"
+            class="form textForm"
+            type="text"
+            name="Razão do Pedido"
+            placeholder="Razão do Pedido"
+          />
+        </div>
+      </form>
+      <div class="send">
+        <input id="send" title="ENVIAR" type="submit" value="ENVIAR" />
+      </div>
+    </section>
   </body>
 </html>
